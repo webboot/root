@@ -24,12 +24,12 @@
   },
   "engineString": true,
   "dependencies": {
-    "@webboot/cli": "github:webboot/cli",
-    "@webboot/core": "github:webboot/core"
+    "@webboot/cli": "0.0.1-alpha.1",
+    "@webboot/core": "0.0.1-alpha.0"
   },
   "devDependencies": {
     "@magic/format": "0.0.7",
-    "@magic/test": "0.1.30"
+    "@magic/test": "0.1.33"
   },
   "repository": {
     "type": "git",
