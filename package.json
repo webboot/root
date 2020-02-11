@@ -11,6 +11,7 @@
     "start": "t -p",
     "test": "t",
     "format": "f -w",
+    "test:cli": "webboot",
     "calls": "calls"
   },
   "bin": {
