@@ -6,11 +6,11 @@
   "license": "AGPL-3.0",
   "description": "npm i (-g) webboot. wrapper around @webboot/core and @webboot/cli.",
   "main": "src/index.mjs",
-  "private": true,
   "scripts": {
     "start": "t -p",
     "test": "t",
     "format": "f -w",
+    "test:cli": "webboot",
     "calls": "calls"
   },
   "bin": {
@@ -24,12 +24,12 @@
   },
   "engineString": true,
   "dependencies": {
-    "@webboot/cli": "github:webboot/cli",
-    "@webboot/core": "github:webboot/core"
+    "@webboot/cli": "0.0.1-alpha.1",
+    "@webboot/core": "0.0.1-alpha.0"
   },
   "devDependencies": {
     "@magic/format": "0.0.7",
-    "@magic/test": "0.1.32"
+    "@magic/test": "0.1.33"
   },
   "repository": {
     "type": "git",
