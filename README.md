@@ -1,4 +1,4 @@
-## @webboot/root
+## webboot
 
 this is the webboot library and cli root.
 
